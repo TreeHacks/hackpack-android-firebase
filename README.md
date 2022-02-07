@@ -1,4 +1,5 @@
-# Android HackPack Tutorial 2022 - Updated by Sathvik Nallamalli
+# Android HackPack Tutorial 2022
+Updated by Sathvik Nallamalli
 
 ### Overview
 For the Android Hackpack, we are going to develop **Personal To-Do List** - A app to keep track of your to-do list items. In this tutorial, you'll learn basic process behind making android apps such as developing an UI, storing data on a real database - Firebase, opening activity from another activity and much more. 
