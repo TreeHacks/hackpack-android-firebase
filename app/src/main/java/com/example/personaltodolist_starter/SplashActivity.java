@@ -18,12 +18,8 @@ public class SplashActivity extends AppCompatActivity {
                 try {
                     //1.5 seconds
                     sleep(1500);
-                    //then start the next activity
-                    //DatabaseReference dr = FirebaseDatabase.getInstance().getReference().child("hi");
-                    //dr.setValue("bye");
                     Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                     startActivity(intent);
-                    //  overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                     finish();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
