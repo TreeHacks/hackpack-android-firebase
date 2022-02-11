@@ -43,13 +43,17 @@ Press the run button (circled in following figure) and you will see a hello worl
 
 Let's define our app design. It will be two activity (excluding the launch screen) application - 
 
+- **SplashActivity**: This will be the launch screen of the app - 
+
+  ![](/docs_assets/splash.png) 
+
 - **MainActivity**: This will show the list of all the to-do items already in the database (will be empty when first developing) and also will include a button to add a new to-do list item. Finally, it would look like this - 
 
-  ![](/docs_assets/mnaT.png) 
+  ![](/docs_assets/main_activity.png) 
 
 - **AddActivity**: This will be the add activity where you will be able to add a new todo list item, and it will saved to your database - 
 
-  ![](/docs_assets/ntact.png)
+  ![](/docs_assets/add_activity.png)
 
 ### Lets build our User Interface (UI)
 
@@ -335,6 +339,9 @@ dependencies {
 
 }
 ```
+
+Our final database will look this when populated with some items:
+![](/docs_assets/database.png)
 
 ### Writing to the Database
 
