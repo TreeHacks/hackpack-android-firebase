@@ -23,10 +23,10 @@ public class ListItemAdapter extends ArrayAdapter<ListItem> {
     Context context;
     ArrayList<ListItem> itemsList = null;
 
-    public ListItemAdapter(Context context, int resource, ArrayList<ListItem> arraylistcheckedbooks) {
-        super(context, resource, arraylistcheckedbooks);
+    public ListItemAdapter(Context context, int resource, ArrayList<ListItem> arrayListItems) {
+        super(context, resource, arrayListItems);
         this.context = context;
-        this.itemsList = arraylistcheckedbooks;
+        this.itemsList = arrayListItems;
     }
 
     @Override
